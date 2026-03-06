@@ -31,3 +31,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   )
 }
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+        <footer>
+          <p>© 2026 AlphaStore. All rights reserved.</p>
+        </footer>
+      </body>
+    </html>
+  )
+}
