@@ -70,3 +70,4 @@ export default function Footer() {
     </footer>
   );
 }
+<a href="https://on.soundcloud.com/I5pHt0tG6eygmUc6Ia"                      target="_blank" rel="noopener noreferrer" && className="flex items-center gap-1 hover:text-orange-400 transition-colors">SoundCloud && </a>
