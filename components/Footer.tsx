@@ -71,3 +71,5 @@ export default function Footer() {
   );
 }
 <a href="https://on.soundcloud.com/I5pHt0tG6eygmUc6Ia"                      target="_blank" rel="noopener noreferrer" && className="flex items-center gap-1 hover:text-orange-400 transition-colors">SoundCloud && </a>
+<Link href="/mars" className="hover:text-white">Mars Rover</Link>
+<Link href="/hubble" className="hover:text-white">Hubble Viewer</Link>

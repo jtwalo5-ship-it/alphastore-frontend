@@ -37,3 +37,6 @@ export default function Telescope() {
   );
 }
 <Link href="/telescope" className="hover:text-white">Telescope Viewer</Link>
+const res = await fetch(
+  `https://api.nasa.gov/planetary/apod?api_key=${process.env.NASA_API_KEY}`
+);
